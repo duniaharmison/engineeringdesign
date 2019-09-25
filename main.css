@@ -2,10 +2,28 @@ h1{color: LightSkyBlue;
 font-family: Impact, 'Charcoal', sans-serif;
 font-size: 75px}
 
-a{color: DarkBlue;
-font-family: Arial, 'Helvetica', sans-serif;
-font-size: 50px}
 
-h2{color: deepPink;
+h2{color: #6e1531;
 font-family: Comic Sans MS, 'Cursive', sans-serif;
 font-size: 50px}
+
+p{color: #9e6f1e;
+font-family: Comic Sans MS, 'Cursive', sans-serif;
+font-size: 50px;
+text-align: center;}
+
+a{color: #629e1e;
+font-family: Impact, 'Charcoal', sans-serif;
+font-size: 40px}
+
+.darkBG {
+  background: #9e6f1e;
+}
+
+.darkerBG {
+  background: #9e6f1e;
+}
+
+.darkestBG {
+  background: #9e6f1e;
+}
