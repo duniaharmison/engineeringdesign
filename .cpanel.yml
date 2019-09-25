@@ -4,3 +4,5 @@ deployment:
  - export DEPLOYPATH=/home/rcfaxmrj/public_html/
  - /bin/cp *.html $DEPLOYPATH
  - /bin/cp *.css $DEPLOYPATH
+ - /bin/cp *.jpg $DEPLOYPATH/image/
+ - /bin/cp *.png $DEPLOYPATH/image/
