@@ -2,4 +2,6 @@ h1{color: rgb(255, 174, 0)}
 h2{color: magenta}
 h3{color: rgb(214, 9, 36)}
 background-color{ color: rgb(2, 102,102}
-cursor{color :goldenrod}
+input,
+textarea,
+[contenteditable]{color :goldenrod}
