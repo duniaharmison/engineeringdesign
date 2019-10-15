@@ -1,1 +1,32 @@
+body{background-color: white;}
 
+h1{color: LightSkyBlue;
+font-family: Arial Black, Gadget, sans-serif;
+font-size: 50px
+text-align: center;}
+
+img{border:10px solid white;
+width: 180px;
+height: 120px;}
+
+h2{color: #afb0a7;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;}
+
+h3{color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;}
+
+p{color: White;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;}
+
+a{color: lightskyblue;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;}
+
+li{color:#afb0a7;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 22}
+
+ul{columns:2}
