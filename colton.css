@@ -1,2 +1,17 @@
 body {
-   background-image: url("https://coresites-cdn.factorymedia.com/mpora_new/wp-content/uploads/2015/04/P-20150307-00168_News-1.jpg");}
+   background-image: url("https://coresites-cdn.factorymedia.com/mpora_new/wp-content/uploads/2015/04/P-20150307-00168_News-1.jpg");
+   background-repeat: repeat-y;
+}
+
+h1{color: white;} 
+
+h2{color: white;}
+
+h3{color: white;}
+
+li{color: white;}
+
+img{border:10px solid white;
+width: 500px;
+height: 250px;}
+
