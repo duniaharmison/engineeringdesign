@@ -1,9 +1,35 @@
 h1{color: rgb(255, 174, 0)}
 h2{color: magenta}
-h3{color: rgb(214, 9, 36)}
-body{background-color: rgb(2, 102, 102)}
+h3{color: rgb(15, 9, 10)}
+body{background-color: rgb(2, 102, 102);}
 input,
 textarea,
 [contenteditable]{color :goldenrod}
 cursor:{cursor: progress;}
-cursor: url (https://4.bp.blogspot.com/-f-Efa__qtec/WDADRzX8hUI/AAAAAAAAAfg/KqPbF3WeWQgmPNrfyB6BYRy0YjzfldsFgCLcB/s1600/Capture.PNG)
+  cursor: url('https://drive.google.com/open?id=1C9sMAviPBoyuPXVozBhTc2cr0yvI1NJ8zRbGRO2Qklo'), auto;	
+::selection {
+  color: floralwhite;
+  background: rgb(2, 102, 102)};
+  *{padding:0;margin:0;}
+
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color: rgb(158, 166, 177);
+	color:#FFF;
+	border-radius:75px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}
