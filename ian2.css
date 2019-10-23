@@ -1,0 +1,57 @@
+/*Drop down*/
+li{
+  list-style-type: none;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+nav{
+  background:#333;
+}
+
+nav ul{
+
+}
+/*first level*/
+nav ul li{
+  background: #333;
+  display: block;
+float: left;
+position: relative;
+
+}
+nav ul a{
+  background: #333;
+  display: block;
+  float: left;
+  width: 150px;
+  padding: 10px 20px;
+}
+nav ul a:hover{
+  background: #111;
+}
+/*2nd level*/
+nav ul li ul{
+  margin: 0;
+  padding: 0;
+  display: none;
+  position: absolute;
+  background: #333;
+  top: 42px;
+}
+nav ul li:hover > ul{
+  display: block;
+
+}
+nav ul li ul li{
+  float: none;
+  background: #333
+}
+/*end of drop down*/
+h1{
+  font-size: 100px;
+  text-align:center;
+}
