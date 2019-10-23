@@ -1,3 +1,12 @@
 body{background-color: black;}
 
-body {background-image: url("http://www.4usky.com/data/out/87/164782431-splatter-wallpapers.jpg");
+body {background-image: url("http://www.4usky.com/data/out/87/164782431-splatter-wallpapers.jpg");}
+
+a {
+  color: white;
+  background-color:black;
+  padding:10px;
+  font-size:18px;
+  text-decoration-line:none;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+}
