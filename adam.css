@@ -1,6 +1,8 @@
 body{background-color: black;}
 
-body {background-image: url("http://www.4usky.com/data/out/87/164782431-splatter-wallpapers.jpg");}
+body {
+  background-image: url("http://www.4usky.com/data/out/87/164782431-splatter-wallpapers.jpg");
+background-repeat: no-repeat}
 
 a {
   color: white;
