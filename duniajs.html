@@ -14,8 +14,13 @@
   document.getElementById('lblGreetings').innerHTML = '<b>' + greet + '</b> and welcome to my website!';
   </script>
     <script>
-      function myFunction(){
+      function myFunctionOne(){
         document.getElementById("learn").innerHTML="Learning How To Use JavaScript!";
+      }
+      </script>
+      <script>
+      function myFunction(){
+        document.getElementById("joke").innerHTML="Because the pee is silent.";
       }
       </script>
   </head>
@@ -36,6 +41,10 @@
     <br>
     <br>
     <p id="learn">slowly...</p>
-    <button type="button" onclick="myFunction()">CLICK HERE</button>
+    <button type="button" onclick="myFunctionOne()">CLICK HERE</button>
+<br><br><br><br><br><br>
+    <h3>Why can't you hear a pterodactyl go to the bathroom?</h3>
+    <p id="joke"></p>
+    <button type="button" onclick="myFunction()">ANSWER</button>
   </body>
 </html>
