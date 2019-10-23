@@ -2,18 +2,6 @@
   <link rel="stylesheet" href="main.css">
   <head>
     <script>
-    var myDate = new Date();
-    var hrs = myDate.getHours();
-    var greet;
-    if (hrs < 12)
-      greet = 'Good Morning';
-    else if (hrs >= 12 && hrs <= 17)
-      greet = 'Good Afternoon';
-    else if (hrs >= 17 && hrs <= 24)
-      greet = 'Good Evening';
-  document.getElementById('lblGreetings').innerHTML = '<b>' + greet + '</b> and welcome to my website!';
-  </script>
-    <script>
       function myFunctionOne(){
         document.getElementById("learn").innerHTML="Learning How To Use JavaScript!";
       }
@@ -23,6 +11,11 @@
         document.getElementById("joke").innerHTML="Because the pee is silent.";
       }
       </script>
+      <script>
+      function myFunctionTwo(){
+        document.getElementById("jokeTwo").innerHTML="A buck an ear (bucaneer)";
+      }
+      </script>
   </head>
   <body>
     <script>
@@ -30,21 +23,21 @@
   document.body.innerHTML = "<h3>Today's date is " + d + ".</h3>";
   </script>
   
-   <label id="lblGreetings"></label>
-  
+   <button type="button" href="./index.html">BACK TO HOME</button>
 
-  <div class="date description">
-  <p>This may not seem like a big deal to you, but I am very excited about what you see above! I used JavaScript code to make my website diplay the current date. It took me a while to figure out how to do this.
-</p></div>
-    <br>
     <h1>Mrs. Harmison is...</h1>
-    <br>
-    <br>
-    <p id="learn">slowly...</p>
+    <p id="learn">slowly</p>
     <button type="button" onclick="myFunctionOne()">CLICK HERE</button>
-<br><br><br><br><br><br>
+<br><br><br>
     <h3>Why can't you hear a pterodactyl go to the bathroom?</h3>
     <p id="joke"></p>
     <button type="button" onclick="myFunction()">ANSWER</button>
+<br><br>
+    <h3>How much does it cost a pirate to get his ears pierced?</h3>
+    <p id="jokeTwo"></p>
+    <button type="button" onclick="myFunctionTwo()">ANSWER</button>
+
+   
+
   </body>
 </html>
