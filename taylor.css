@@ -1,7 +1,9 @@
 body {
    background-image: url("https://storage.needpix.com/rsynced_images/creek-898393_1280.jpg");
-   background-repeat:repeat-y;
-   background-position: center;
+
+   background-position:top-center;
+   background-attachment:scroll;
+   height:500px
 }
 
 h1{color:rgb(112, 119, 218);
@@ -24,11 +26,10 @@ font-size: 15px;
 background-color:white;
 padding:5px;}
 
-a{color: blue;
+a{color:blue;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 20px;}
 
 li{color:#afb0a7;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 22}
-
