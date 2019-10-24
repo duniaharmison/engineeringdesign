@@ -8,7 +8,7 @@
 }
 
 .image-container{
-  width: 1800px;
+  width: 180px;
   height: 600px;
   position: relative;
   transition: left 2s;
@@ -36,13 +36,13 @@ slider-button{
   background-color: white;
 }
 
-#slider-image-1: target~.image-container{
+#slider-image-1: target ~ .image-container{
   left: 0px;
 }
-#slider-image-2: target~.image-container{
+#slider-image-2: target ~ .image-container{
   left: -600px;
 }
 
-#slider-image-3: target~.image-container{
+#slider-image-3: target ~ .image-container{
   left: -1200px;
 }
