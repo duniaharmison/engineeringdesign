@@ -1,26 +1,197 @@
-body{ background-image: url("https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__480.jpg");}
 
-h1 {color: lightskyblue;
- font-family: Arial, Helvetica, sans-serif;
-}
-h2 {color: whitesmoke;
- font-family: Arial, Helvetica, sans-serif;
-}
-h3 {color: rgb(241, 31, 161);
- font-family: Arial, Helvetica, sans-serif;
-}
-p {color: white;
-
- font-family: Arial, Helvetica, sans-serif;
+body {
+  background-color: #d7ebf8;
+  margin: 0px;
+  font-size: 0;
 }
 
-div {
-  background-color: rgb(4, 4, 59);
-  width: 500px;
-  border: 5px solid white;
-  padding: 10px;
-  margin: 10px;
+#mayaAngelou br {
+  line-height: 10px;
 }
-img {
-  border: 7px solid white;
+
+#mayaAngelou p {
+  margin-top: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#familypics h2 {
+  color: rgb(35, 110, 185);
+  font-family: fantasy;
+  font-weight: bold;
+  float: left;
+  text-align: center;
+  padding: 16px;
+  font-size: 8vmax;
+  width: 100%;
+  margin: 0px;
+  
+}
+
+a {
+  color: rgb(35, 110, 185);
+  text-decoration: none;
+  font-weight: bold;
+}
+#familymembersection {
+  margin: 0%;
+  width: 100%;
+  height: auto;
+
+}
+
+ #familymember h3 {
+   width: 55%;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 2.2vmax;
+   text-align: justify;
+   height: auto;
+   display: inline-block;
+   padding: 0;
+   vertical-align: top;
+   margin-left: 5%;
+   margin-right: 5%;
+   margin-top:0%;
+ }
+
+ #familymember img {
+   width: 25%;
+   height: auto;
+   display: inline-block;
+   padding: 0;
+   border: 10px solid navy;
+   margin-right: 5%;
+   vertical-align: top;
+
+ }
+
+ #familymemberswitch h3 {
+   width: 55%;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 2.2vmax;
+   text-align: justify;
+   height: auto;
+   display: inline-block;
+   vertical-align: top;
+   margin-top: 0px;
+ }
+
+ #familymemberswitch img {
+   width: 25%;
+   height: auto;
+   display: inline-block;
+   padding: 0;
+   border: 12px solid navy;
+   margin-left: 5%;
+   margin-right: 5%;
+   vertical-align: top;
+ }
+#morepics h2 {
+  color: rgb(35, 110, 185);
+  font-family: fantasy;
+  font-weight: bold;
+  float: left;
+  text-align: center;
+  padding: 16px;
+  font-size: 30px;
+  width: 100%;
+  margin: 0px;
+  margin-top: 0%;
+}
+
+
+
+#name h1 {
+  text-align: center;
+  background-color: rgb(2, 21, 83);
+  padding: 16px;
+  top: 50%;
+  float: left;
+  width: 100%;
+  font-size: 8vmax;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d7ebf8;
+  margin: 0px;
+  
+}
+#dropdownmenu {
+  float: left;
+  width: 100%;
+}
+
+#picture img{
+  width: 100%;
+  margin: 0px;
+ float: left; top: 0; left: 0;
+  z-index: -1;}
+
+.dropbtn {
+  background-color: #44aaee;
+  color: rgb(13, 15, 114);
+  padding: 12px;
+  font-size: 4vmax;
+  border: none;
+  width: 100%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 20%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(6, 7, 59);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 100%;
+}
+
+.dropdown-content a {
+  color:  #d7ebf8;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+.dropdown-content a:hover {background-color: rgb(61, 101, 231); color: aqua: 0%;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #21c9fc;}
+
+p {
+  float: left;
+  text-align: center;
+  font-size: 4vmax;
+  color: darkblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+#morepics {
+  text-align: center;
+}
+
+#threePics img {
+  width: 25%;
+  display: inline-block;
+  border: solid navy 8px;
+  height: auto;
+  margin: 15px;
+}
+
+#twoPics img {
+  width: 35%;
+  display: inline-block;
+  border: solid navy 8px;
+  height: auto;
+  margin: 15px;
 }
