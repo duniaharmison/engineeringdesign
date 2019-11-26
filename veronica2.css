@@ -1,7 +1,12 @@
-body{background-color: powderblue;} 
+body {
+background-image: url("https://lh3.googleusercontent.com/UaFV3N6dAHrkV9iOfYAQrdZvi4cjx_inZe0kXZSwCB5C5r4voGZAHHMsTK4rKizr7t_gsRaIOE9NgxHRb2hsqJnpopDZqfXlHCIvlmWUud_5CLw7fq6xKEklBzWOdYdcLhBgxIparQ");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
 h1{color: Black;
 font-family: Arial Black, Gadget, sans-serif;
-font-size: 50px
+font-size: 50px;
 text-align: center;}
 
 img{border:10px solid black;
